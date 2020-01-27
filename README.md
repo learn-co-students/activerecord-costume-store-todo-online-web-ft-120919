@@ -5,7 +5,7 @@
 |Section                           |
 |----------------------------------|
 |[Objectives](#objectives)         |
-|[Active Record](#active-record)    |
+|[Active Record](#active-record)   |
 |[Example](#example)               |
 |[Instructions](#instructions)     |
 |[Resources](#resources)           |
@@ -24,7 +24,7 @@ The `costumes` table will have four columns:
   2. price
   3. size
   4. image url
-  
+
 _as well as_ the two "timestamp" columns:  `created_at` and `updated_at`. This
 will provide a grand total of _six_ columns.
 
@@ -315,7 +315,7 @@ be seen.
 For example, say you've run `rake db:migrate` and `learn` once to start, and see
 that you need to add an attribute to the `costume_stores` table. Since this
 table is the second migration of three, you will need to run `rake db:rollback`
-twice to remove the previous migration for this table, then run 
+twice to remove the previous migration for this table, then run
 `rake db:migrate` again to update the schema.
 
 ## Resources
