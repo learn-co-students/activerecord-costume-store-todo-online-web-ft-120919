@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-
+<<-D
 describe "CostumeStore" do
 
   it "has a name" do
@@ -67,3 +67,5 @@ describe "CostumeStore" do
   end
 
 end
+
+D
