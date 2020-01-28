@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-
+<<-D
 describe "HauntedHouse" do
 
   it "has a name" do
@@ -61,3 +61,4 @@ describe "HauntedHouse" do
   end
 
 end
+D
